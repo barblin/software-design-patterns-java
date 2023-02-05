@@ -19,11 +19,6 @@ public final class Manager extends Employee {
     }
 
     @Override
-    public Role identify() {
-        return Role.MANAGER;
-    }
-
-    @Override
     public Iterator<Employee> iterator() {
         return new ManagerIterator(this);
     }

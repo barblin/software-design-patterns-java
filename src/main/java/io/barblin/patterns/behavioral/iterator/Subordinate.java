@@ -9,11 +9,6 @@ public final class Subordinate extends Employee {
     }
 
     @Override
-    public Role identify() {
-        return Role.EMPLOYEE;
-    }
-
-    @Override
     public Iterator<Employee> iterator() {
         return new EmployeeIterator(this);
     }

@@ -10,16 +10,9 @@ public abstract class Employee implements Iterable<Employee> {
         this.id = id;
     }
 
-    enum Role {
-        EMPLOYEE,
-        MANAGER
-    }
-
     public int showId() {
         return id;
     }
-
-    abstract Role identify();
 
     @Override
     public boolean equals(Object o) {
