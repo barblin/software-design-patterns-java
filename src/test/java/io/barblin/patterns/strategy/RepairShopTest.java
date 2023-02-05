@@ -1,6 +1,10 @@
 package io.barblin.patterns.strategy;
 
-import io.barblin.patterns.strategy.vehicles.*;
+import io.barblin.patterns.behavioral.strategy.CarRepairStrategy;
+import io.barblin.patterns.behavioral.strategy.MotorcycleRepairStrategy;
+import io.barblin.patterns.behavioral.strategy.RepairShop;
+import io.barblin.patterns.behavioral.strategy.TruckRepairStrategy;
+import io.barblin.patterns.behavioral.strategy.vehicles.*;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 

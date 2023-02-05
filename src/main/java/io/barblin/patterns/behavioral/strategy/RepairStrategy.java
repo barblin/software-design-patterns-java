@@ -1,4 +1,4 @@
-package io.barblin.patterns.strategy;
+package io.barblin.patterns.behavioral.strategy;
 
 public sealed interface RepairStrategy permits
         CarRepairStrategy,

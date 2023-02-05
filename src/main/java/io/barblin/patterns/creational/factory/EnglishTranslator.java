@@ -1,4 +1,4 @@
-package io.barblin.patterns.factory;
+package io.barblin.patterns.creational.factory;
 
 final class EnglishTranslator implements Translator {
     @Override

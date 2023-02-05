@@ -5,10 +5,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.Set;
 
+import io.barblin.patterns.creational.builder.Email;
 import org.junit.jupiter.api.Test;
 
-import io.barblin.patterns.builder.Email.EmailBuilder;
-import io.barblin.patterns.builder.Email.Importance;
+import io.barblin.patterns.creational.builder.Email.EmailBuilder;
+import io.barblin.patterns.creational.builder.Email.Importance;
 
 public class EmailBuilderTest {
     private static final String TEST_RECIPIENT = "test.test@test.at";

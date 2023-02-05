@@ -1,22 +1,21 @@
-package io.barblin.patterns.strategy;
+package io.barblin.patterns.behavioral.strategy;
 
-import io.barblin.patterns.strategy.vehicles.Vehicle;
-import io.barblin.patterns.strategy.vehicles.Vehicle.VehicleType;
+import io.barblin.patterns.behavioral.strategy.vehicles.Vehicle;
 
 import java.util.EnumMap;
 import java.util.Objects;
 
 public final class RepairShop {
 
-    private final EnumMap<VehicleType, RepairStrategy> strategies;
+    private final EnumMap<Vehicle.VehicleType, RepairStrategy> strategies;
     private final DefaultRepairStrategy defaultRepairStrategy;
 
     public RepairShop() {
-        strategies = new EnumMap<>(VehicleType.class);
+        strategies = new EnumMap<>(Vehicle.VehicleType.class);
         defaultRepairStrategy = new DefaultRepairStrategy();
     }
 
-    public void registerStrategy(VehicleType type, RepairStrategy strategy) {
+    public void registerStrategy(Vehicle.VehicleType type, RepairStrategy strategy) {
         strategies.put(type, strategy);
     }
 

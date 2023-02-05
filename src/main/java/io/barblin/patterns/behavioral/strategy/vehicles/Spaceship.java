@@ -1,4 +1,4 @@
-package io.barblin.patterns.strategy.vehicles;
+package io.barblin.patterns.behavioral.strategy.vehicles;
 
 public final class Spaceship implements Vehicle{
     @Override

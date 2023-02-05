@@ -1,4 +1,4 @@
-package io.barblin.patterns.factory;
+package io.barblin.patterns.creational.factory;
 
 public sealed interface Translator permits EnglishTranslator, FrenchTranslator, GermanTranslator {
 

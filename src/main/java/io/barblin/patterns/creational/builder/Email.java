@@ -1,4 +1,4 @@
-package io.barblin.patterns.builder;
+package io.barblin.patterns.creational.builder;
 
 import java.util.Set;
 
