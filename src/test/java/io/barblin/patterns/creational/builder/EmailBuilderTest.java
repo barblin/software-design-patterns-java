@@ -1,4 +1,4 @@
-package io.barblin.patterns.builder;
+package io.barblin.patterns.creational.builder;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;

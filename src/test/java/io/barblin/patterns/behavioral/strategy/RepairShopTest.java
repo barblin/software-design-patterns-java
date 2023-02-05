@@ -1,4 +1,4 @@
-package io.barblin.patterns.strategy;
+package io.barblin.patterns.behavioral.strategy;
 
 import io.barblin.patterns.behavioral.strategy.CarRepairStrategy;
 import io.barblin.patterns.behavioral.strategy.MotorcycleRepairStrategy;

@@ -13,7 +13,6 @@ public abstract class Employee implements Iterable<Employee> {
     enum Role {
         EMPLOYEE,
         MANAGER
-
     }
 
     public int showId() {

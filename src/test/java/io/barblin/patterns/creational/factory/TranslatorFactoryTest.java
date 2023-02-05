@@ -1,4 +1,4 @@
-package io.barblin.patterns.factory;
+package io.barblin.patterns.creational.factory;
 
 import io.barblin.patterns.creational.factory.Translator;
 import io.barblin.patterns.creational.factory.TranslatorFactory;
