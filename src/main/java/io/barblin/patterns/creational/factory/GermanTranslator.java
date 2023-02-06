@@ -1,6 +1,6 @@
 package io.barblin.patterns.creational.factory;
 
-final class GermanTranslator implements Translator {
+public final class GermanTranslator implements Translator {
     @Override
     public String sayHello() {
         return "Hallo";
