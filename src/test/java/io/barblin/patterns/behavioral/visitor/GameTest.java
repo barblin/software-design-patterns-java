@@ -44,4 +44,17 @@ class GameTest {
         assertEquals(0, characters[0].getHealth());
         assertEquals(0, characters[1].getHealth());
     }
+
+    @Test
+    void poisonedChaliceShouldReduceHealth() {
+        Character[] characters = new Character[]{new Player(100), new Boss(2000)};
+
+        HealthVisitor visitor = new PoisonedChaliceVisitor();
+        for (Character character : characters) {
+            character.accept(visitor);
+        }
+
+        assertEquals(20, characters[0].getHealth());
+        assertEquals(1900, characters[1].getHealth());
+    }
 }
