@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-class LazySingletonTest {
+class LazyGodTest {
 
     @Test
     void shouldCreateSingleton() {
-        assertNotNull(LazySingleton.getInstance());
+        assertNotNull(God.getInstance());
     }
 }
