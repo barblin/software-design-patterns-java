@@ -17,6 +17,10 @@ public abstract class Asset {
 
     abstract AssetType getType();
 
+    public String getName() {
+        return name;
+    }
+
     public int getInvocationCount() {
         return invocations;
     }

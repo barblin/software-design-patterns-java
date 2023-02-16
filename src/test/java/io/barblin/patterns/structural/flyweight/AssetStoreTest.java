@@ -24,5 +24,6 @@ class AssetStoreTest {
         Asset sound = AssetStore.get("snd1.wav", SOUND_EFFECT);
         assertEquals(1, sound.getInvocationCount());
         assertEquals(SOUND_EFFECT, sound.getType());
+        assertEquals("snd1.wav", sound.getName());
     }
 }
