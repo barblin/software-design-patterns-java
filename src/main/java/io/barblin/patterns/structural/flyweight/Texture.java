@@ -1,7 +1,7 @@
 package io.barblin.patterns.structural.flyweight;
 
 public final class Texture extends Asset {
-    protected Texture(String name) {
+    public Texture(String name) {
         super(name);
     }
 
