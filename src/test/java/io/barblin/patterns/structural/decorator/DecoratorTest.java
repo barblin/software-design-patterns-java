@@ -2,7 +2,7 @@ package io.barblin.patterns.structural.decorator;
 
 import org.junit.jupiter.api.Test;
 
-class DataSourceTest {
+class DecoratorTest {
 
     @Test
     void shouldSucceed() {

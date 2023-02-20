@@ -7,7 +7,7 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class OrgStructureTest {
+class IteratorTest {
 
     @Test
     void iterateOrgStructureShouldSucceed() {

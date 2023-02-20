@@ -6,7 +6,7 @@ import static io.barblin.patterns.structural.flyweight.Asset.AssetType.SOUND_EFF
 import static io.barblin.patterns.structural.flyweight.Asset.AssetType.TEXTURE;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class AssetStoreTest {
+class FlyweightTest {
 
     @Test
     void getAssetShouldReturnFlyweightInstance() {

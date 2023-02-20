@@ -1,13 +1,11 @@
 package io.barblin.patterns.creational.factory;
 
-import io.barblin.patterns.creational.factory.Translator;
-import io.barblin.patterns.creational.factory.TranslatorFactory;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class TranslatorFactoryTest {
+class FactoryTest {
 
     private final TranslatorFactory factory = new TranslatorFactory();
 

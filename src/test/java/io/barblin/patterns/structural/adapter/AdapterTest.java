@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class AdaptEuropeanPlugToAmericanTest {
+class AdapterTest {
 
     @Test
     void europeanPlugShouldReceiveValues() {

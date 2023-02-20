@@ -1,9 +1,5 @@
 package io.barblin.patterns.behavioral.strategy;
 
-import io.barblin.patterns.behavioral.strategy.CarRepairStrategy;
-import io.barblin.patterns.behavioral.strategy.MotorcycleRepairStrategy;
-import io.barblin.patterns.behavioral.strategy.RepairShop;
-import io.barblin.patterns.behavioral.strategy.TruckRepairStrategy;
 import io.barblin.patterns.behavioral.strategy.vehicles.*;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -11,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-class RepairShopTest {
+class StrategyTest {
 
     private static final RepairShop shop = new RepairShop();
 
