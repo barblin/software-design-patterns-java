@@ -37,4 +37,20 @@ class RemoteControlTest {
 
         assertEquals(Player.Direction.EAST, player.getDirection());
     }
+
+    @Test
+    void playerShouldNotTurnForButtonNotFound() {
+        Player player = new Player();
+
+        TurnLeftCommand turnLeftCommand = new TurnLeftCommand(player);
+        TurnRightCommand turnRightCommand = new TurnRightCommand(player);
+
+        RemoteControl control = new RemoteControl();
+        control.register(RemoteControl.Button.LEFT_ARROW, turnLeftCommand);
+        control.register(RemoteControl.Button.RIGHT_ARROW, turnRightCommand);
+
+        control.press(null);
+
+        assertEquals(Player.Direction.NORTH, player.getDirection());
+    }
 }
