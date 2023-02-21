@@ -12,7 +12,7 @@ class StateTest {
         SomeService someService = () -> {
         };
 
-        CircuitBreaker circuitBreaker = new CircuitBreaker(someService, 1, 2000);
+        CircuitBreaker circuitBreaker = new CircuitBreaker(someService, 1, 100);
         circuitBreaker.execute();
 
         assertEquals(Closed.class, circuitBreaker.getState().getClass());
@@ -24,7 +24,7 @@ class StateTest {
             throw new NullPointerException();
         };
 
-        CircuitBreaker circuitBreaker = new CircuitBreaker(failedService, 1, 2000);
+        CircuitBreaker circuitBreaker = new CircuitBreaker(failedService, 1, 100);
         circuitBreaker.execute();
 
         assertEquals(Open.class, circuitBreaker.getState().getClass());
@@ -33,11 +33,11 @@ class StateTest {
     @Test
     void executeWithFailureShouldSetStateHalfOpenAfterTimout() throws CircuitBreakerException, InterruptedException {
         CircuitBreaker circuitBreaker = new CircuitBreaker(() -> {
-        }, 1, 1000);
+        }, 1, 100);
         circuitBreaker.setState(new Open(circuitBreaker, () -> {
         }));
 
-        sleep(1001);
+        sleep(101);
         circuitBreaker.execute();
 
         assertEquals(HalfOpen.class, circuitBreaker.getState().getClass());
@@ -49,10 +49,10 @@ class StateTest {
             throw new NullPointerException();
         };
 
-        CircuitBreaker circuitBreaker = new CircuitBreaker(failedService, 1, 1000);
+        CircuitBreaker circuitBreaker = new CircuitBreaker(failedService, 1, 100);
         circuitBreaker.execute();
 
-        sleep(1001);
+        sleep(101);
         circuitBreaker.execute();
         circuitBreaker.execute();
 
@@ -62,7 +62,7 @@ class StateTest {
     @Test
     void halfOpenCircuitBreakerShouldCloseOnSuccess() throws CircuitBreakerException {
         CircuitBreaker circuitBreaker = new CircuitBreaker(() -> {
-        }, 1, 1000);
+        }, 1, 100);
         circuitBreaker.setState(new HalfOpen(circuitBreaker, () -> {
         }));
 
