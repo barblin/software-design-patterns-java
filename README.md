@@ -42,7 +42,51 @@
 ## Structural
 [Structural Patterns Directory](src/main/java/io/barblin/patterns/structural)
 
-wip
+
+### Adapter
+[Source files](src/main/java/io/barblin/patterns/structural/adapter) \
+[How to use](src/test/java/io/barblin/patterns/structural/adapter/AdapterTest.java) \
+[Readme](src/main/java/io/barblin/patterns/structural/adapter/README.md)
+
+### Bridge
+[Source files](src/main/java/io/barblin/patterns/structural/bridge) \
+[How to use](src/test/java/io/barblin/patterns/structural/bridge/BridgeTest.java) \
+[Readme](src/main/java/io/barblin/patterns/structural/bridge/README.md)
+
+### Composite
+[Source files](src/main/java/io/barblin/patterns/structural/composite) \
+[How to use](src/test/java/io/barblin/patterns/structural/composite/CompositeTest.java) \
+[Readme](src/main/java/io/barblin/patterns/structural/composite/README.md)
+
+### Decorator
+[Source files](src/main/java/io/barblin/patterns/structural/decorator) \
+[How to use](src/test/java/io/barblin/patterns/structural/decorator/DecoratorTest.java) \
+[Readme](src/main/java/io/barblin/patterns/structural/decorator/README.md)
+
+### Delegate
+[Source files](src/main/java/io/barblin/patterns/structural/delegate) \
+[How to use](src/test/java/io/barblin/patterns/structural/delegate/DelegateTest.java) \
+[Readme](src/main/java/io/barblin/patterns/structural/delegate/README.md)
+
+### Facade
+[Source files](src/main/java/io/barblin/patterns/structural/facade) \
+[How to use](src/test/java/io/barblin/patterns/structural/facade/FacadeTest.java) \
+[Readme](src/main/java/io/barblin/patterns/structural/facade/README.md)
+
+### Flyweight
+[Source files](src/main/java/io/barblin/patterns/structural/flyweight) \
+[How to use](src/test/java/io/barblin/patterns/structural/flyweight/FlyweightTest.java) \
+[Readme](src/main/java/io/barblin/patterns/structural/flyweight/README.md)
+
+### Marker
+[Source files](src/main/java/io/barblin/patterns/structural/marker) \
+[How to use](src/test/java/io/barblin/patterns/structural/marker/MarkerTest.java) \
+[Readme](src/main/java/io/barblin/patterns/structural/marker/README.md)
+
+### Proxy
+[Source files](src/main/java/io/barblin/patterns/structural/proxy) \
+[How to use](src/test/java/io/barblin/patterns/structural/proxy/ProxyTest.java) \
+[Readme](src/main/java/io/barblin/patterns/structural/proxy/README.md)
 
 ## Behavioral
 [Behavioral Patterns Directory](src/main/java/io/barblin/patterns/behavioral)
