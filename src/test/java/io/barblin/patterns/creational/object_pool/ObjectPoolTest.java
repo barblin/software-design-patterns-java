@@ -1,6 +1,6 @@
-package io.barblin.patterns.creational.opject_pool;
+package io.barblin.patterns.creational.object_pool;
 
-import io.barblin.patterns.creational.opject_pool.mocks.ConnectionSupplier;
+import io.barblin.patterns.creational.object_pool.mocks.ConnectionSupplier;
 import org.junit.jupiter.api.Test;
 
 import java.sql.Connection;

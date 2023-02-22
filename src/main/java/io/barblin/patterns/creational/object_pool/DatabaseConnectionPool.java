@@ -1,4 +1,4 @@
-package io.barblin.patterns.creational.opject_pool;
+package io.barblin.patterns.creational.object_pool;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -1,4 +1,4 @@
-package io.barblin.patterns.creational.opject_pool.mocks;
+package io.barblin.patterns.creational.object_pool.mocks;
 
 import java.sql.*;
 import java.util.Map;
