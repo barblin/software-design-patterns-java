@@ -8,3 +8,5 @@ A system can have multiple layers and components that are tightly coupled, makin
 The Facade pattern can also be used to create a modular system. By defining a Facade interface for each module, you can encapsulate the functionality of each module and provide a simple interface for other modules to use. This can make it easier to maintain and update the system since each module can be developed and tested independently.
 
 Overall, the Facade pattern can help improve the overall design of a system by simplifying it and making it more modular. It can also improve the readability and maintainability of the code by hiding implementation details behind a simple interface.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/structural/facade/FacadeTest.java)

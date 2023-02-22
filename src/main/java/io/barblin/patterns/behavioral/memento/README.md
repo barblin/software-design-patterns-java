@@ -8,3 +8,5 @@ Here are some common use cases for the mediator pattern:
 
 - In game state management. You can use the memento pattern to maintain a history of quick saves.
 
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/behavioral/memento/MementoTest.java)

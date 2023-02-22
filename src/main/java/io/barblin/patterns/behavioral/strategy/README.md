@@ -16,3 +16,5 @@ The Strategy pattern is a behavioral design pattern that allows you to define a 
 
 
 Overall, the Strategy pattern is useful when you have multiple algorithms that you want to use interchangeably, or when you need to select an algorithm at runtime based on certain criteria. By encapsulating algorithms as objects and providing a common interface, you can separate the concerns of selecting and executing an algorithm from the concerns of its implementation. This can lead to more flexible and modular code that is easier to maintain and extend over time.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/behavioral/strategy/StrategyTest.java)

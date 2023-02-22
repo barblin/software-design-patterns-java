@@ -16,3 +16,5 @@ Here are some common use cases for the Flyweight pattern:
 - Gaming: Game engines can use the Flyweight pattern to manage game objects and improve performance. By sharing common data between objects, such as textures or animations, the engine can reduce memory usage and improve rendering performance.
 
 Overall, the Flyweight pattern can be used in any situation where an application needs to manage a large number of objects and wants to reduce memory usage.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/structural/flyweight/FlyweightTest.java)

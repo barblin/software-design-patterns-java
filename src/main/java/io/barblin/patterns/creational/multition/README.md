@@ -16,3 +16,5 @@ The Multiton pattern is a variation of the Singleton pattern, which ensures that
 
 
 Overall, the Multiton pattern is useful when you want to limit the number of instances of a class that can be created, but still need a global point of access to those instances. By encapsulating instances in a separate object, the Multiton pattern makes it easy to modify the creation process or add additional functionality to the instances. Additionally, the ability to have multiple instances with unique identifiers provides more flexibility than the Singleton pattern.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/creational/multition/MultitionTest.java)

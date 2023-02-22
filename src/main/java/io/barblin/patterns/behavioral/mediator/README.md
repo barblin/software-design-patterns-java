@@ -15,3 +15,5 @@ Here are some common use cases for the mediator pattern:
 
 
 Overall, the mediator pattern is useful in situations where a group of objects need to communicate with each other in a complex way, but the direct communication between them would result in tight coupling and a lack of flexibility. By introducing a mediator object, the communication between the objects is encapsulated and indirect, allowing for more flexible and decoupled interactions.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/behavioral/mediator/MediatorTest.java)

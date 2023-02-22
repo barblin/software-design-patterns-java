@@ -27,3 +27,5 @@ Here are some common uses of the Fluent Interface pattern:
 - Supporting method chaining: The Fluent Interface pattern supports method chaining, which can be useful for creating
   complex object hierarchies. Method chaining allows for a fluent, natural syntax that can be used to build up an object
   in a step-by-step manner.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/behavioral/fluent_interface/FluentInterfaceTest.java)

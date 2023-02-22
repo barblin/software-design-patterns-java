@@ -30,3 +30,5 @@ pattern:
 Overall, the publish/subscribe pattern is useful in any system that needs to exchange information between multiple
 components or services without tightly coupling them. It provides a flexible way to handle message delivery, making it
 easier to add or remove components from the system without affecting the rest of the system.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/behavioral/publish_subscriber/PublishSubscriberTest.java)

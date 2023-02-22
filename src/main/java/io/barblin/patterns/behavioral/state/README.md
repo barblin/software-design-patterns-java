@@ -15,3 +15,5 @@ The State pattern is used to represent the different states of an object and to 
 - Networking and distributed systems: The State pattern can be used to represent the different states of a network connection or distributed system, such as "connected", "disconnected", or "retrying". Each state can be represented by a separate object, and the behavior associated with each state can be encapsulated in the object.
 
 In general, the State pattern is useful when you have an object that can be in multiple states, and the behavior of the object depends on its current state. By using the State pattern, you can encapsulate the behavior associated with each state in a separate object, making it easier to add new states or modify the behavior of existing states without affecting the rest of the object.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/behavioral/state/StateTest.java)

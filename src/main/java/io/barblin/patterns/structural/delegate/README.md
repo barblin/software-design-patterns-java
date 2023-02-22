@@ -11,3 +11,5 @@ The delegation pattern is a useful design pattern that can be used to achieve se
 - Loose coupling: The delegation pattern promotes loose coupling between classes, which makes it easier to modify or replace parts of the system without affecting other parts.
 
 In summary, the delegation pattern can be a useful tool for achieving a clean and flexible architecture in your software development projects.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/structural/delegate/DelegateTest.java)

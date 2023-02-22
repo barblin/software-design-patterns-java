@@ -15,3 +15,5 @@ The Template Method pattern is a behavioral design pattern that defines the basi
 - Polymorphism: The Template Method pattern leverages polymorphism to provide a consistent interface for a family of related classes. This allows clients to interact with the classes using a common interface, making the code more flexible and easier to maintain.
 
 Overall, the Template Method pattern is useful when you have a group of related classes that share a common algorithm, but have some variations in the way that the algorithm is implemented. By encapsulating the algorithm in a template method, the pattern promotes code reuse, encapsulation, flexibility, extension, and polymorphism.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/behavioral/template_method/TemplateMethodTest.java)

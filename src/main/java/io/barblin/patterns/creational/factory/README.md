@@ -16,3 +16,5 @@ The Factory pattern is a creational design pattern that provides an interface fo
 
 
 Overall, the Factory pattern is useful when you need to create objects of different types and you want to abstract the process of object creation away from the client code. By encapsulating object creation in a separate object, the Factory pattern promotes code reuse and makes it easy to switch between different types of objects without changing the code that uses them.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/creational/factory/FactoryTest.java)

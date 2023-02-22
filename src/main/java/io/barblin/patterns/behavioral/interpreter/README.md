@@ -23,3 +23,5 @@ Uses and benefits of the Interpreter Design Pattern:
 Overall, the Interpreter Design Pattern is useful whenever you need to parse and interpret input that follows a specific
 grammar or syntax. It allows you to define a domain-specific language and interpret it to perform some action, making it
 a powerful tool for a wide range of applications.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/behavioral/interpreter/InterpreterTest.java)

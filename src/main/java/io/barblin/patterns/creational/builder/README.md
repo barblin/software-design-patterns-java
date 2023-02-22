@@ -14,4 +14,6 @@ The Builder pattern is a creational design pattern that separates the constructi
 
 - Promoting code reuse: The Builder pattern promotes code reuse by allowing you to reuse the same building process to create different representations of the same object.
 
-Overall, the Builder pattern is useful when you need to create complex objects that have a complex structure or require multiple steps to create. By separating the construction of a complex object from its representation, you can simplify object creation, encapsulate object creation in a separate o
+Overall, the Builder pattern is useful when you need to create complex objects that have a complex structure or require multiple steps to create. By separating the construction of a complex object from its representation, you can simplify object creation, encapsulate object creation in a separate object, support different representations of the same object, and promote code reuse.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/creational/builder/BuilderTest.java)

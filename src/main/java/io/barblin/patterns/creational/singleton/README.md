@@ -16,3 +16,5 @@ The Singleton pattern is a creational design pattern that ensures a class has on
 
 
 Overall, the Singleton pattern is useful in situations where there should only be one instance of a particular class, and where global access to that instance is needed. The pattern can help to manage resources efficiently, prevent conflicts, and simplify the design of an application.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/creational/singleton/SingletonTest.java)

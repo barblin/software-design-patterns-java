@@ -15,3 +15,5 @@ The Null Object design pattern is a behavioral design pattern that aims to elimi
 - Dependency injection: In some cases, you may want to inject an object into another object, but that object may not exist yet or may be null. By using the Null Object pattern, you can inject a Null Object that provides default behavior until the real object is available.
 
 Overall, the Null Object design pattern can help simplify your code, eliminate null checks, and provide default behavior when an object's value is null.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/behavioral/null_object/NullObjectTest.java)

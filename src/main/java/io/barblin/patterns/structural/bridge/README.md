@@ -17,5 +17,4 @@ The Bridge pattern is a structural design pattern that decouples an abstraction 
 
 Overall, the Bridge pattern is useful in situations where a clear separation between abstraction and implementation is needed, or where flexibility and extensibility are important. By decoupling the two, the Bridge pattern allows components to be easily swapped, extended, or customized, and can help to simplify the design of an application.
 
-
-
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/structural/bridge/BridgeTest.java)

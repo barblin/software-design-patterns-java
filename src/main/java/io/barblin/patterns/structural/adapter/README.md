@@ -15,3 +15,5 @@ The Adapter pattern is a structural design pattern that allows objects with inco
 - Separating concerns: The Adapter pattern can be used to separate concerns in an application. By creating a separate Adapter class that adapts one class's interface to another, the Adapter pattern allows the two classes to remain independent and focus on their respective concerns.
 
 Overall, the Adapter pattern is useful in situations where objects with incompatible interfaces need to work together, or where existing classes need to be adapted to work in a new context. By adapting interfaces, the Adapter pattern allows objects to be reused, integrated, or implemented more easily, and can help to simplify the design of an application.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/structural/adapter/AdapterTest.java)

@@ -12,3 +12,5 @@ The Marker pattern is a design pattern that is used to add a special flag or mar
 - Testing: In some cases, you may want to mark certain objects as being test-specific or test-friendly, to allow for easier testing. For example, you could define a TestFriendly interface and mark certain objects as test-friendly, and then use that interface to provide special testing functionality or to bypass certain restrictions that would normally be in place.
 
 Overall, the Marker pattern is a flexible and useful pattern that can be used in many different situations to add special flags or markers to objects to indicate certain properties or behaviors.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/structural/marker/MarkerTest.java)

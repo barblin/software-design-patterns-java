@@ -16,3 +16,5 @@ The Prototype pattern is a creational design pattern that allows objects to be c
 
 
 Overall, the Prototype pattern is useful in situations where objects need to be created efficiently, where complex objects need to be created, or where the process of object creation needs to be hidden or customized. By cloning an existing object, the Prototype pattern can simplify the process of object creation and improve the performance of the application.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/creational/prototype/PrototypeTest.java)

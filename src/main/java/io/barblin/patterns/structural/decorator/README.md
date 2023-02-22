@@ -16,3 +16,5 @@ The Decorator pattern is a structural design pattern that allows you to add new 
 
 
 Overall, the Decorator pattern is useful in situations where you need to add new behavior to an object dynamically, customize its behavior, or combine multiple behaviors into a single object. By wrapping the object in a decorator object, the Decorator pattern allows the behavior of the object to be modified without modifying its original code, making it a flexible and powerful tool for software development.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/structural/decorator/DecoratorTest.java)

@@ -15,3 +15,5 @@ Here are some common uses of the Blackboard design pattern:
 
 
 In general, the Blackboard pattern is useful in situations where there are many independent agents or subsystems that need to collaborate to solve a complex problem. By providing a common blackboard data structure for sharing information and coordinating actions, the Blackboard pattern can help to simplify the design and implementation of complex systems.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/behavioral/blackboard/BlackboardTest.java)

@@ -15,3 +15,5 @@ The Iterator pattern is a behavioral design pattern that provides a way to acces
 - Sequential access: The Iterator pattern is useful when you need to access objects in a collection sequentially, without random access.
 
 Overall, the Iterator pattern is useful when you need to iterate over a collection of objects in a way that is independent of the collection's implementation. By encapsulating the iteration process within the iterator object and providing a common interface, you can separate the concerns of managing the collection from the concerns of iterating over it. This can lead to more flexible and modular code that is easier to maintain and extend over time.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/behavioral/iterator/IteratorTest.java)

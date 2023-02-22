@@ -18,3 +18,5 @@ The Command pattern is a behavioral design pattern that encapsulates a request a
 - Implementing transactions: The Command pattern can be used to implement transactions, where a series of commands are executed as a single atomic operation. If any of the commands fail, the entire transaction is rolled back.
 
 Overall, the Command pattern is useful when you want to decouple the object that invokes a request from the object that performs the request. By encapsulating requests as objects, you can implement undo/redo operations, logging and auditing, queuing, macro commands, and transactions. This can lead to more flexible and modular code that is easier to maintain and extend over time.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/behavioral/command/CommandTest.java)

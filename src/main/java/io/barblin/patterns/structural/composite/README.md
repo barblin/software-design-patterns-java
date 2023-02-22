@@ -16,3 +16,5 @@ The Composite pattern is a structural design pattern that allows you to treat gr
 
 
 Overall, the Composite pattern is useful in situations where you need to work with hierarchical or recursive structures, or where a uniform interface for working with groups of objects is needed. By treating groups of objects as if they were individual objects, the Composite pattern can simplify the code and make it easier to work with complex structures.
+
+[Give it a try](./../../../../../../../test/java/io/barblin/patterns/structural/composite/CompositeTest.java)
