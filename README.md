@@ -1,8 +1,47 @@
 # Design Patterns in Java
 
+- [Creational](#creational)
+    * [Abstract Factory](#abstract-factory)
+    * [Builder](#builder)
+    * [Factory](#factory)
+    * [Multition](#multition)
+    * [Object Pool](#object-pool)
+    * [Prototype](#prototype)
+    * [Singleton](#singleton)
+- [Structural](#structural)
+    * [Adapter](#adapter)
+    * [Bridge](#bridge)
+    * [Composite](#composite)
+    * [Decorator](#decorator)
+    * [Delegate](#delegate)
+    * [Facade](#facade)
+    * [Flyweight](#flyweight)
+    * [Marker](#marker)
+    * [Proxy](#proxy)
+- [Behavioral](#behavioral)
+    * [Blackboard](#blackboard)
+    * [Chain of Responsibility](#chain-of-responsibility)
+    * [Command](#command)
+    * [Fluent Interface](#fluent-interface)
+    * [Interpreter](#interpreter)
+    * [Iterator](#iterator)
+    * [Mediator](#mediator)
+    * [Memento](#memento)
+    * [Null Object](#null-object)
+    * [Publish Subscriber](#publish-subscriber)
+    * [State](#state)
+    * [Strategy](#strategy)
+    * [Template Method](#template-method)
+    * [Visitor](#visitor)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 ## Creational
 
 [Creational Patterns Directory](src/main/java/io/barblin/patterns/creational)
+
+Creational design patterns are software design patterns that provide ways to create objects or classes in a flexible and reusable manner.
 
 ### Abstract Factory
 
@@ -49,6 +88,8 @@
 ## Structural
 
 [Structural Patterns Directory](src/main/java/io/barblin/patterns/structural)
+
+Structural design patterns are software design patterns that deal with the composition of classes and objects to form larger structures while maintaining flexibility and efficiency.
 
 ### Adapter
 
@@ -107,6 +148,8 @@
 ## Behavioral
 
 [Behavioral Patterns Directory](src/main/java/io/barblin/patterns/behavioral)
+
+Behavioral design patterns are software design patterns that focus on the communication and interaction between objects and classes to achieve flexible and effective behaviors and algorithms.
 
 ### Blackboard
 
